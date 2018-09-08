@@ -5,9 +5,11 @@ import java.util.UUID;
 
 public class Transaction {
     private String txnId;
+    // TODO - Data type should be java.util.Date as it provides various utility methods for performing date operations.
     private String dateString;
     private Customer customer;
     private String paymentMethod;
+    // TODO - BigDecimal is better option for currency.
     private Float amount;
     private List<Item> items;
 

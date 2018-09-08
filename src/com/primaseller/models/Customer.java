@@ -2,8 +2,12 @@ package com.primaseller.models;
 
 import java.util.StringJoiner;
 
+/**
+ * Represents customer entity.
+ */
 public class Customer {
     private String email;
+    // TODO - BigDecimal is better option for currency.
     private Float totalPurchaseAmount;
 
     public Customer(String email, Float totalPurchaseAmount) {

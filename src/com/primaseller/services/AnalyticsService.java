@@ -11,6 +11,10 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Service which handles the analytics via map-reduce.
+ */
+// TODO - Dependency injection.
 public class AnalyticsService {
     private Map<String, Book> booksById = new TreeMap<>();
     private Set<Transaction> transactions = new HashSet<>();

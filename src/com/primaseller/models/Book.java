@@ -2,6 +2,9 @@ package com.primaseller.models;
 
 import java.util.StringJoiner;
 
+/**
+ * Represents an item of type `book`.
+ */
 public class Book extends Item {
     private String author;
 

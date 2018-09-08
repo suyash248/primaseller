@@ -1,8 +1,13 @@
 package com.primaseller.models;
 
+/**
+ * Root of all types of items.
+ */
 public class Item {
     protected String id;
     protected String title;
+
+    // TODO - BigDecimal is better option for currency.
     protected Float price;
     protected Integer sellCount;
 

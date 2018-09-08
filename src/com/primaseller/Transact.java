@@ -8,6 +8,7 @@ import com.primaseller.models.*;
 import com.primaseller.services.AnalyticsService;
 
 public class Transact {
+    // TODO - Inject the services using DI.
     private AnalyticsService analyticsService = new AnalyticsService();
 
     public static void main(String[] args) {
